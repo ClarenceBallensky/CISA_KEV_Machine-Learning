@@ -1,11 +1,11 @@
-# CISA Known Exploited Vulnerabilities Analysis
-This repository contains my capstone portfolio for Codecademy's **Data and Programming Foundations for AI** skill path. 
-Using the Cybersecurity and Infrastructure Security Agency's [Known Exploited Vulnerabilities (KEV) catalog](https://github.com/cisagov/kev-data), I performed an exploratory data analysis to identify trends in known exploited vulnerabilities, remediation-timelines, and ransomware-associated weaknesses. This project demonstrates data cleaning, exploratory analysis, visualization, and interpretation using Python.
+# CISA Known Exploited Vulnerabilities Machine Learning
+This repository contains my capstone portfolio for Codecademy's **Build a Machine Learning Model** skill path. 
+Using the Cybersecurity and Infrastructure Security Agency's [Known Exploited Vulnerabilities (KEV) catalog](https://github.com/cisagov/kev-data), I developed three classification machine learning models: a logistic regression model, a random forest model, and a support vector machine model. I selected the models based on my findings in my [exploratory data analysis project](https://github.com/ClarenceBallensky/CISA_KEV_Analysis), which I completed on the same dataset. This project demonstrates data processing, model selection, model evaluation, and model refinement using Python.
 
-## Sample Visualisation
-<img width="622" height="497" alt="image" src="https://github.com/user-attachments/assets/39353590-334e-4377-8817-3a85d2ce9eb4" />
+## Model Performance Comparison
+<img width="1096" height="592" alt="image" src="https://github.com/user-attachments/assets/8966f5be-5eb9-400a-8b5e-9bf989e857a6" />
 
-*Figure 1. Top ten vendors by the number of vulnerabilities listed in CISA's Known Exploited Vulnerabilities (KEV) Catalog.*
+*Figure 1. Comparison between the most successful versions of the logistic regression, random forest, and support vector machine models.*
 
 ## Research Questions
 This project investigates the following research questions:
@@ -19,18 +19,14 @@ This project investigates the following research questions:
 ## Skills Demonstrated
 - Python 3
 - Pandas
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Data visualization with Matplotlib and Seaborn
+- Scikit-learn
+- Model selection
+- Data processing
+- Classification model implementation
 - Jupyter Notebook
-- Interpreting and communicating analytical results
+- Interpreting and communicating results
 
 ## Key Findings
-- Microsoft has the largest number of cataloged vulnerabilities.
-- Input validation and use-after-free are the most common weaknesses.
-- Ransomware vulnerabilities show similar remediation timelines to the broader catalog.
-- Most remediation deadlines are exactly 21 days.
-- Vulnerability additions peaked in 2022.
 
 ## How to Run
 ### Required software:
@@ -52,5 +48,5 @@ pip install beautifulsoup4
 4. Install Jupyter Notebook: `conda install jupyter`.
 5. Install the dependencies listed above.
 6. Launch Jupyter Notebook: `jupyter notebook`.
-7. Open `CISA_Known_Exploited_Vulnerabilities_Analysis.ipynb`.
+7. Open `CISA_KEV_Machine-Learning.ipynb`.
 8. Run all notebook cells from top to bottom.
