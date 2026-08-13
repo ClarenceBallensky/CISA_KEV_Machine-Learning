@@ -15,7 +15,7 @@ Increasing the decision threshold produced varying results across the three mode
 *Figure 1. Comparison between the most successful versions of the logistic regression, random forest, and support vector machine models.*
 
 ## Outcomes
-My models ranks as follows, in order of best scores to worst scores: 
+My models rank as follows, in order of best scores to worst scores: 
 1) Logistic regression
 2) Random forest
 3) Support vector machine
